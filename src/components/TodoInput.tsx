@@ -6,6 +6,7 @@ interface TodoInputProps {
   addTask: (task: string) => void;
 }
 
+
 export function TodoInput({ addTask }: TodoInputProps) {
   const [task, setTask] = useState("");
 
